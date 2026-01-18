@@ -1,23 +1,36 @@
 ﻿using System;
 using System.IO;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace UndustedTheGame;
 
+public class UndustedData
+{
+    [JsonPropertyName("ItemNames")]
+    public string[]? ItemNames { get; set; }
+
+    [JsonPropertyName("ToolNames")]
+    public string[]? ToolNames { get; set; }
+}
 
 class Program
 {
-    List<Game> games = Setting.GetUndustedtheGamesFromFile();
-
-    static string[] cleanItems = {"Front Key", "Teacup", "Ocarina", "Attic Key"};
-    static string[] cleanTools = {"Toothbrush", "Sponge", "Cloth"};
     static string chosenItem = "";
     static int chosenItemNumber;
     static string chosenTool = "";
     static int chosenToolNumber;
 
     static bool itemCleaned = false;
+
+    static string fileName = "undustedtheGame.json";
+    static string jsonstring = File.ReadAllText(fileName);
+    static UndustedData undustedTheGame = JsonSerializer.Deserialize<UndustedData>(jsonstring)!;
+
+    static string[]? cleanItems = undustedTheGame.ItemNames;
+    static string[]? cleanTools = undustedTheGame.ToolNames;
 
     static void Main()
     {
@@ -55,7 +68,7 @@ class Program
         }
     }
 
-    private static void DisplayAllItems(string[] items)
+    private static void DisplayAllItems(string[]? items)
     {
         int n = 1;
         foreach (var item in items)
@@ -65,7 +78,7 @@ class Program
         }
     }
 
-    private static void DisplayAllTools(string[] tools)
+    private static void DisplayAllTools(string[]? tools)
     {
         int n = 1;
         foreach (var tool in tools)

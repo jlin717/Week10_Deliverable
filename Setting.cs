@@ -13,15 +13,15 @@ public static class Setting
         PropertyNameCaseInsensitive = true
     };
 
-    public static List<Game> GetUndustedtheGamesFromFile()
+    public static List<UndustedData> GetUndustedtheGameFromFile()
     {
         string UndustedTheGameJsonString = File.ReadAllText(FilePath);
-        return JsonSerializer.Deserialize<List<Game>>(UndustedTheGameJsonString, Options)!;
+        return JsonSerializer.Deserialize<List<UndustedData>>(UndustedTheGameJsonString, Options)!;
     }
 
-    public static void SaveUndustedtheGameToFile(List<Game> games)
+    public static void SaveUndustedtheGameToFile(List<UndustedData> games)
     {
-        string stringedGames = JsonSerializer.Serialize<List<Game>>(games, Options);
+        string stringedGames = JsonSerializer.Serialize<List<UndustedData>>(games, Options);
 
         File.WriteAllText(FilePath, stringedGames);
     }

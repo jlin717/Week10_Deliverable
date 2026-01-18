@@ -12,3 +12,4 @@ C:\Users\Jessica L\Projects\Week10_Deliverable\obj\Debug\net10.0\refint\Week10_D
 C:\Users\Jessica L\Projects\Week10_Deliverable\obj\Debug\net10.0\Week10_Deliverable.pdb
 C:\Users\Jessica L\Projects\Week10_Deliverable\obj\Debug\net10.0\Week10_Deliverable.genruntimeconfig.cache
 C:\Users\Jessica L\Projects\Week10_Deliverable\obj\Debug\net10.0\ref\Week10_Deliverable.dll
+C:\Users\Jessica L\Projects\Week10_Deliverable\obj\Debug\net10.0\Week10_Deliverable.sourcelink.json
