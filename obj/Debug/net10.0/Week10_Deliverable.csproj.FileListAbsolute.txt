@@ -1,0 +1,14 @@
+C:\Users\Jessica L\Projects\Week10_Deliverable\bin\Debug\net10.0\Week10_Deliverable.exe
+C:\Users\Jessica L\Projects\Week10_Deliverable\bin\Debug\net10.0\Week10_Deliverable.deps.json
+C:\Users\Jessica L\Projects\Week10_Deliverable\bin\Debug\net10.0\Week10_Deliverable.runtimeconfig.json
+C:\Users\Jessica L\Projects\Week10_Deliverable\bin\Debug\net10.0\Week10_Deliverable.dll
+C:\Users\Jessica L\Projects\Week10_Deliverable\bin\Debug\net10.0\Week10_Deliverable.pdb
+C:\Users\Jessica L\Projects\Week10_Deliverable\obj\Debug\net10.0\Week10_Deliverable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jessica L\Projects\Week10_Deliverable\obj\Debug\net10.0\Week10_Deliverable.AssemblyInfoInputs.cache
+C:\Users\Jessica L\Projects\Week10_Deliverable\obj\Debug\net10.0\Week10_Deliverable.AssemblyInfo.cs
+C:\Users\Jessica L\Projects\Week10_Deliverable\obj\Debug\net10.0\Week10_Deliverable.csproj.CoreCompileInputs.cache
+C:\Users\Jessica L\Projects\Week10_Deliverable\obj\Debug\net10.0\Week10_Deliverable.dll
+C:\Users\Jessica L\Projects\Week10_Deliverable\obj\Debug\net10.0\refint\Week10_Deliverable.dll
+C:\Users\Jessica L\Projects\Week10_Deliverable\obj\Debug\net10.0\Week10_Deliverable.pdb
+C:\Users\Jessica L\Projects\Week10_Deliverable\obj\Debug\net10.0\Week10_Deliverable.genruntimeconfig.cache
+C:\Users\Jessica L\Projects\Week10_Deliverable\obj\Debug\net10.0\ref\Week10_Deliverable.dll
